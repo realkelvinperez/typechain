@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/no1/.nvm/versions/node/v12.18.3/bin/node /Users/no1/.nvm/versions/node/v12.18.3/bin/yarn init
+
+PATH: 
+  /Users/no1/.cabal/bin:/Users/no1/.ghcup/bin:/Users/no1/.nvm/versions/node/v12.18.3/bin:/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/usr/bin:/usr/local/Cellar/php/7.4.6/bin:/Users/no1/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/no1/.composer/vendor/bin:/usr/local/opt/fzf/bin:/Users/no1/go:/usr/local/go/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.18.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/Users/no1/.nvm/versions/node/v12.18.3/lib/node_modules/yarn/lib/cli.js:136216:13)
+      at Interface.emit (events.js:315:20)
+      at Interface._ttyWrite (readline.js:868:16)
+      at ReadStream.onkeypress (readline.js:205:10)
+      at ReadStream.emit (events.js:315:20)
+      at emitKeys (internal/readline/utils.js:335:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1137:36)
+      at ReadStream.emit (events.js:315:20)
+      at addChunk (_stream_readable.js:295:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

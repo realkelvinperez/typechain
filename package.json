@@ -1,0 +1,13 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-watch index.ts --outDir ./dist --onSuccess \"node ./dist/index.js\""
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "ts-watch": "^1.0.8"
+  }
+}
